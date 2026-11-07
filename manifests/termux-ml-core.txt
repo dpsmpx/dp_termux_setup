@@ -1,0 +1,19 @@
+# Verified Termux package versions on Android 15 ARM64, 2026-11-07.
+# Format: package==version
+# These are DPKG-owned packages; do not reinstall them with pip.
+
+libopenblas==0.3.34
+python==3.14.10
+python-ensurepip-wheels==3.14.10
+python-pip==26.3
+python-brotli==1.2.1
+python-hf-xet==1.8.0
+python-tokenizers==0.23.3
+python-numpy==2.5.4
+python-scipy==1.18.1-1
+python-pillow==13.0.0
+python-pycryptodomex==3.24.2
+python-torch==2.15.0
+python-torchvision==0.29.2-1
+python-torchaudio==2.11.1
+python-torchcodec==0.17.0-3

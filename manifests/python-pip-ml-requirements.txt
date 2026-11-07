@@ -1,0 +1,37 @@
+# Pinned pip-managed layer for the verified Termux Python 3.14 profile.
+# Install the local Safetensors Android wheel separately before this file.
+# DPKG-owned torch/numpy/scipy/tokenizers/hf-xet/Pillow are intentionally omitted.
+
+transformers==5.22.2
+requests==2.34.2
+huggingface-hub==2.4.0
+
+# Transformers / CLI dependencies
+regex==2026.11.7
+typer==0.28.0
+annotated-doc==0.0.5
+rich==15.0.0
+Pygments==2.21.0
+markdown-it-py==4.2.0
+mdurl==0.1.2
+shellingham==1.5.4
+
+# Requests dependencies
+charset-normalizer==3.5.2
+urllib3==2.8.0
+certifi==2026.10.23
+
+# Hugging Face Hub 2.4.0 transport and shared dependencies
+httpx2==2.16.0
+httpcore2==2.16.0
+truststore==0.10.5
+anyio==4.16.0
+h11==0.16.0
+click==8.5.1
+idna==3.20
+filelock==4.2.9
+fsspec==2026.9.0
+packaging==26.3
+PyYAML==6.0.3
+tqdm==4.70.1
+typing_extensions==4.16.0
