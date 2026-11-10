@@ -67,3 +67,7 @@ net, not a guarantee; review source, artifacts and Git metadata manually.
 The current pinned Python/ML profile is based on one validated environment.
 Package availability and compatibility vary across Termux releases and
 repositories. Review package transactions and third-party toolchain sources.
+
+## Роль относительно DPmetaApp
+
+Решение автора от 10–11 ноября 2026 — [docs/direction/DP_META_APP.md](docs/direction/DP_META_APP.md).
